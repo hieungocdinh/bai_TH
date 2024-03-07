@@ -1,0 +1,98 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Input infomation */
+.infomation{
+    width: 60%;
+    margin-top: 10%;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.infomation__title{
+    padding: 24px 4px;
+}
+
+.infomation__des{
+    margin: 0;
+    display: block;
+    text-align: left;
+}
+
+.infomation__input{
+    height: 40px;
+    width: 90%;
+    margin: 12px 4px;
+    padding: 0 12px;
+}
+
+.infomation__btn{
+    width: 160px;
+    height: 40px;
+    background-color: brown;
+    color: white;
+    margin: 28px 0;
+}
+
+/* Question */
+.question{
+    display: none;
+    position: relative;
+    background-color: #fff5ed;
+}
+
+.question__title{
+    text-align: center;
+    padding: 32px;
+}
+
+.question__block{
+    padding: 0 24px;
+    padding-bottom: 36px;
+}
+
+.question__block-title{
+
+}
+
+.question__block-input{
+    margin-left: 12px;
+}
+
+.question__block-input p{
+    margin: 0;
+}
+
+.question__block-input-ans{
+    margin-left: 12px;
+}
+
+.question__block-input-ans span{
+    margin-left: 8px;
+    word-wrap: break-word;
+}
+
+.question__block-input-ans textarea{
+    padding: 40px;
+}
+
+.question__btn{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    bottom: -60px;
+    right: 4px;
+}
+
+/* result */
+.result{
+    display: none;
+}

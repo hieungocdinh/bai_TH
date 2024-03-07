@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Bài Khảo sát</title>
+</head>
+<body>
+    <div class="main">
+        <div class="infomation container">
+            <h1 class="infomation__title">Nhập thông tin của bạn</h1>
+            <p class="infomaiton__des">Nhập họ và tên</p>
+            <input type="text" class="infomation__input" placeholder="Họ và tên">
+            <p class="infomaiton__des">Nhập ngày tháng năm sinh</p>
+            <input type="date" class="infomation__input" placeholder="Ngày tháng năm sinh">
+            <p class="infomaiton__des">Nhập số CCCD</p>
+            <input type="text" class="infomation__input" placeholder="Số CCCD">
+            <p class="infomaiton__des">Nhập địa chỉ thường trú</p>
+            <input type="text" class="infomation__input" placeholder="Địa chỉ thường trú">
+            <button class="infomation__btn" id="btn-confirm-inf">Xác nhận</button>
+        </div>
+
+        <div class="question container">
+            <h1 class="question__title">Câu hỏi khảo sát</h1>
+
+            <div class="question__block">
+                <h3 class="question__block-title">Phần I: Câu hỏi T/F</h3>
+                <div class="question__block-input">
+                    <p>Câu hỏi: Trái đất có hình cầu?</p>
+                    <div class="question__block-input-ans">
+                        <input type="radio" name="T-1">
+                        <span>Đúng</span>
+                    </div>
+                    <div class="question__block-input-ans">
+                        <input type="radio" name="T-1">
+                        <span>Sai</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question__block">
+                <h3 class="question__block-title">Phần II: Câu hỏi trắc nghiệm </h3>
+                <div class="question__block-input">
+                    <p>Câu hỏi: Trái đất có hình gì?</p>
+                    <div class="question__block-input-ans">
+                        <input type="radio" name="TN-1">
+                        <span>A. Hình cầu</span>
+                    </div>
+                    <div class="question__block-input-ans">
+                        <input type="radio" name="TN-1">
+                        <span>B. Hình tam giác</span>
+                    </div>
+                    <div class="question__block-input-ans">
+                        <input type="radio" name="TN-1">
+                        <span>C. Hình hình vuông</span>
+                    </div>
+                    <div class="question__block-input-ans">
+                        <input type="radio" name="TN-1">
+                        <span>D. Hình tròn</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question__block">
+                <h3 class="question__block-title">Phần III: Câu hỏi chọn hiều đáp án </h3>
+                <div class="question__block-input">
+                    <p>Câu hỏi: Trái đất có hình gì?</p>
+                    <div class="question__block-input-ans">
+                        <input type="checkbox" name="TH-1">
+                        <span>A. Hình cầu</span>
+                    </div>
+                    <div class="question__block-input-ans">
+                        <input type="checkbox" name="TH-1">
+                        <span>B. Hình tam giác</span>
+                    </div>
+                    <div class="question__block-input-ans">
+                        <input type="checkbox" name="TH-1">
+                        <span>C. Hình hình vuông</span>
+                    </div>
+                    <div class="question__block-input-ans">
+                        <input type="checkbox" name="TH-1">
+                        <span>D. Hình tròn</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question__block">
+                <h3 class="question__block-title">Phần IV: Câu hỏi Tự luận  </h3>
+                <div class="question__block-input">
+                    <p>Câu hỏi: Trái đất có hình gì?</p>
+                    <div class="question__block-input-ans">
+                        <p>Trả lời:</p>
+                        <textarea name="" id="" cols="100" rows="10">    
+                        </textarea>
+                    </div>
+                </div>
+            </div>
+
+            <button class="question__btn" id="btn-confirm-ans">Gửi khảo sát</button>
+        </div>
+        <div class="result container mt-3">
+            <h2 class="text-center mb-5">Cảm ơn bạn đã dành thời gian trả lời khảo sát</h2>
+            <p>Câu trả lời của bạn đã được gửi đến chúng tôi!!!</p>
+            <p>Bạn có thể xem lại các câu trả lời của mình ở dưới</p>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./action.js"></script>
