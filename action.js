@@ -10,6 +10,5 @@ btnConfirmInf.addEventListener('click', function() {
 });
 
 btnConfirmAns.addEventListener('click', function() {
-    formSurvey.style.display = 'none';
-    formResult.style.display = 'block';
+    alert('Cảm ơn bạn đã tham gia khảo sát! Bài khảo sát của bạn đã được gửi đến chúng tôi! Bạn có thể xem câu trả lời của mình ở dưới đây.');
 });
