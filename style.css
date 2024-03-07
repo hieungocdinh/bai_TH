@@ -21,10 +21,9 @@
     padding: 24px 4px;
 }
 
-.infomation__des{
+.infomaiton__des{
+    font-size: 18px;
     margin: 0;
-    display: block;
-    text-align: left;
 }
 
 .infomation__input{
